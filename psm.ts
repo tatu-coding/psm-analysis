@@ -83,10 +83,10 @@ function pushCumulative(data: number[], prices: number[], cumul: number[], type:
 }
 
 /**
- * 2つの直線セグメントの交点を計算します。
+ * 2つの線分の交点を計算します。
  *
- * @param {number[][]} line1 - 最初の直線セグメントの座標
- * @param {number[][]} line2 - 2番目の直線セグメントの座標
+ * @param {number[][]} line1 - 最初の線分の座標
+ * @param {number[][]} line2 - 2番目の線分の座標
  * @return {number[]} 交点 [x, y]。交点がない場合は [0, 0]
  */
 function lineIntersect(line1: number[][], line2: number[][]): number[] {
